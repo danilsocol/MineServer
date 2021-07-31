@@ -8,12 +8,16 @@
 	<body>
 		<header>
 			<div id="insideHeader">
-				<div id="logo"></div>
-				<div id="nameServer">Название</div>
 				<div id="hrefHeader">
-					<a href="#">Главная</a>
-					<a href="#">Магазин</a>
-					<a href="#">Войти</a>
+					<a href="#">
+						<div id="logo"></div>
+						<div id="nameServer">Название</div>
+					</a>
+					<a href="#">Правила</a>
+					<a href="#">Форум</a>
+					<a href="#">Сервера</a>
+					<a href="#">Донат</a>
+					<a href="#">Начать играть</a>
 				</div>
 			</div>
 		</header>

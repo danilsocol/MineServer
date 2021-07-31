@@ -81,19 +81,17 @@ header{
 #hrefHeader{
 	display: flex;
 	height: 50px;
- 	float: right;
 }
 
 #hrefHeader a{
-	width: 110px;
+	min-width: 110px;
+	flex: 1;
 	text-align: center;
 	display: block;
-	padding: 0 15px;
 	line-height: 50px;
 	font-size: 22px;
 	text-decoration: none;
 	border-right: 1px solid rgba(255, 255, 255, 1);
-	border-left: 1px solid rgba(255, 255, 255, 1);
 	border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
@@ -107,7 +105,15 @@ header{
 	background: rgb(40, 40, 40);
 }
 
+#hrefHeader a:first-child{
+	padding-left: 5px;
+	min-width: 200px;
+	max-width: 200px;
+	border-left: 1px solid rgba(255, 255, 255, 1);
+}
+
 #hrefHeader a:last-child{
+	min-width: 220px;
 	border-left: none;
 }
 
