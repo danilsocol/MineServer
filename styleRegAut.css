@@ -1,0 +1,78 @@
+
+body div{
+ margin-top: 250px;
+}
+
+#formReg{
+	margin: 20px auto;
+	width:300px;
+	min-height:350px;
+	background: url(images/backWelcome.jpg) no-repeat;
+	background-size: cover;;
+}
+
+#formReg div{
+	margin: 20px auto;
+	width:208px;
+}
+
+#formAut{
+	margin: 20px auto;
+	width:300px;
+	min-height:235px;
+	background: url(images/backWelcome.jpg) no-repeat;
+	background-size: cover;;
+
+}
+
+#formAut div{
+	margin: 20px auto;
+	width:208px;
+}
+
+
+h1{
+	text-align: center;
+}
+
+p{
+	margin-bottom: 0;
+}
+
+
+.partForm{
+	width:200px;
+}
+
+.partFormBox{
+	margin: 0;
+	padding: 0;
+	width:200px;
+}
+
+.partFormBox:focus{
+	box-shadow: 0 0 15px rgb(10, 10, 10);
+}
+
+.partFormButt{
+	background: rgb(160, 42, 42);
+	color: rgb(225,215,40);
+	font-size: 18px;
+	margin-top: 10px;
+	width: 102px;
+}
+
+.partFormButt:first-child{
+	background: rgb(160, 42, 42);
+	color: rgb(225,215,40)
+}
+
+.partFormButt:hover{
+	color: gold;
+	background: rgb(140, 20, 20);
+}
+
+.partFormButt:active{
+	color: gold;
+	background: rgb(80, 0, 0);
+}
